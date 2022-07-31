@@ -112,23 +112,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -236,7 +236,7 @@
   console.log(city)
   // let url = ''
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -248,7 +248,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -348,23 +348,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -471,7 +471,7 @@
    function berlin() {
   
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=Berlin&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=Berlin&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -483,7 +483,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -583,23 +583,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -707,7 +707,7 @@
    function london() {
     
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -719,7 +719,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -819,23 +819,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -941,7 +941,7 @@
   function paris() {
    
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -953,7 +953,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -1053,23 +1053,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -1177,7 +1177,7 @@
   console.log(city)
   // let url = ''
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=San\ Francisco&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=San\ Francisco&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -1189,7 +1189,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -1289,23 +1289,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -1410,7 +1410,7 @@
   }
   function ny() {
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=New\ York&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=New\ York&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -1422,7 +1422,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -1522,23 +1522,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -1643,7 +1643,7 @@
   }
   function barce() {
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=Barcelona&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=Barcelona&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -1655,7 +1655,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -1755,23 +1755,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -1876,7 +1876,7 @@
   }
   function madrid() {
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=Madrid&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=Madrid&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -1888,7 +1888,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -1988,23 +1988,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
@@ -2109,7 +2109,7 @@
   }
   function athens() {
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=Athens&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=Athens&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -2121,7 +2121,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
@@ -2221,23 +2221,23 @@
 
       
       // this is used to display icon1
-      let iconurl1 = "http://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
+      let iconurl1 = "https://openweathermap.org/img/w/" + data.daily[0].weather[0].icon + ".png"
       $('.wicon1').attr('src', iconurl1);
 
       // this is used to display icon1
-      let iconurl2 = "http://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
+      let iconurl2 = "https://openweathermap.org/img/w/" + data.daily[1].weather[0].icon + ".png"
       $('.wicon2').attr('src', iconurl2);
 
       // this is used to display icon1
-      let iconurl3 = "http://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
+      let iconurl3 = "https://openweathermap.org/img/w/" + data.daily[2].weather[0].icon + ".png"
       $('.wicon3').attr('src', iconurl3);
 
       // this is used to display icon1
-      let iconurl4 = "http://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
+      let iconurl4 = "https://openweathermap.org/img/w/" + data.daily[3].weather[0].icon + ".png"
       $('.wicon4').attr('src', iconurl4);
 
       // this is used to display icon1
-      let iconurl5 = "http://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
+      let iconurl5 = "https://openweathermap.org/img/w/" + data.daily[4].weather[0].icon + ".png"
       $('.wicon5').attr('src', iconurl5);
 
       // this is used to display temperature1
