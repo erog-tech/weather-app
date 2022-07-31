@@ -78,7 +78,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -314,7 +314,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -549,7 +549,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -785,7 +785,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -1019,7 +1019,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -1255,7 +1255,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -1488,7 +1488,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -1721,7 +1721,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -1954,7 +1954,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
@@ -2187,7 +2187,7 @@
      // this is used to display UV-index
       $('.uv-index').each(function () {
         let uvi = data.current.uvi + ' ' + '%'
-        $('.uv-index').text(uvi)
+        $('.uv-index').text('UV Index: '+uvi)
       });
 
       // this is used to display date1
