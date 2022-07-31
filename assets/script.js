@@ -1,6 +1,6 @@
 // This display default value
   // This is used to call  and change city
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=Chicago&units=metric&appid='
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=Chicago&units=metric&appid='
   // console.log(url) 
 
   const api_key = config.OPEN_WEATHER_API_KEY
@@ -12,7 +12,7 @@
   
         console.log(data)
         // this is used to display icon
-        let iconurl = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+        let iconurl = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         $('.wicon').attr('src', iconurl);
   
          // this is used to display city
