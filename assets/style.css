@@ -8,13 +8,14 @@
     border:1px solid black;
     margin: 5px;
     margin-left: 75px;
-    
+    margin-right: 75px;
 }
 
 .fiveday {
     border:1px solid black;
     margin: 5px;
     margin-left: 75px;
+    margin-right: 10px;
     background-color: aqua;
 }
 .btn {
@@ -23,4 +24,7 @@
 
 .search {
     min-width: 250px;
+}
+.five {
+    margin-left: 75px;
 }
